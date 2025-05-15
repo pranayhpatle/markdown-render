@@ -26,7 +26,7 @@ function App() {
         value={markdown}
         onChange={(e) => setMarkdown(e.target.value)}
         rows={10}
-        cols={60}
+        cols={200}
         style={{ marginBottom: "1rem", width: "100%" }}
       />
       <hr />
